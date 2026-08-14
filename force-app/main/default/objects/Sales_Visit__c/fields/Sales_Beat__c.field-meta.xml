@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Beat__c</fullName>
+    <label>Sales Beat</label>
+    <type>Lookup</type>
+    <referenceTo>Sales_Beat__c</referenceTo>
+    <relationshipLabel>Visits</relationshipLabel>
+    <relationshipName>Beat_Sales_Visits</relationshipName>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Sales Beat</description>
+</CustomField>

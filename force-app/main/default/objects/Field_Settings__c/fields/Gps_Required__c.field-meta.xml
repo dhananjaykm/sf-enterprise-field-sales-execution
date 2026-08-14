@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gps_Required__c</fullName>
+    <label>GPS Required</label>
+    <type>Checkbox</type>
+    <defaultValue>true</defaultValue>
+    <description>GPS Required</description>
+</CustomField>

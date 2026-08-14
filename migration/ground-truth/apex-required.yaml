@@ -1,0 +1,4 @@
+retain:
+  - RouteOptimizationService
+  - OfflineSyncService
+  - GpsEvidenceService (device capture remains LWC)

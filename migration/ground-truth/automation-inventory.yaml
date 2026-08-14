@@ -1,0 +1,34 @@
+version: 1
+org: sf-enterprise-field-sales-execution
+automation:
+  - id: FSE-001
+    source_artifact: DailyBeatService.cls
+    conversion: { classification: A, confidence: high }
+    target: { flow_type: scheduled_triggered }
+  - id: FSE-002
+    source_artifact: VisitCompletionService.cls
+    conversion: { classification: A, confidence: high }
+    target: { flow_type: record_triggered, save_type: after }
+  - id: FSE-003
+    source_artifact: CollectionOverdueService.cls
+    conversion: { classification: A, confidence: high }
+    target: { flow_type: scheduled_triggered }
+  - id: FSE-004
+    source_artifact: ManagerApprovalService.cls
+    conversion: { classification: A, confidence: high }
+  - id: FSE-005
+    source_artifact: RetailAuditService.cls
+    conversion: { classification: A, confidence: high }
+  - id: FSE-006
+    source_artifact: RouteOptimizationService.cls
+    conversion: { classification: E, confidence: high }
+  - id: FSE-007
+    source_artifact: OfflineSyncService.cls
+    conversion: { classification: G, confidence: high }
+  - id: FSE-008
+    source_artifact: GenerateVisitPlanInvocable.cls
+    conversion: { classification: B, confidence: high }
+  - id: FSE-009
+    source_artifact: Visit_Completed__e
+    conversion: { classification: A, confidence: medium }
+    target: { flow_type: platform_event_triggered }

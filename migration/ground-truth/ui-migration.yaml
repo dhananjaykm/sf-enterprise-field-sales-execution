@@ -1,0 +1,6 @@
+visualforce:
+  - RetailAuditWizard: SCREEN_FLOW_CANDIDATE
+  - RoutePlannerPage: APEX_REQUIRED
+lwc:
+  - cgcApprovalPanel: Flow → LWC
+  - cgcOrderBasket: LWC → Flow (not deployed)

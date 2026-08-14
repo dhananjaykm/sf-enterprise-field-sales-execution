@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Beat_Stop__c</fullName>
+    <label>Beat Stop</label>
+    <type>Lookup</type>
+    <referenceTo>Beat_Stop__c</referenceTo>
+    <relationshipLabel>Visits</relationshipLabel>
+    <relationshipName>Stop_Visits</relationshipName>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Beat Stop</description>
+</CustomField>

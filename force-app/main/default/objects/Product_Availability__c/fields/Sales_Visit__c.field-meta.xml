@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Visit__c</fullName>
+    <label>Sales Visit</label>
+    <type>Lookup</type>
+    <referenceTo>Sales_Visit__c</referenceTo>
+    <relationshipLabel>Availability</relationshipLabel>
+    <relationshipName>Product_Availability</relationshipName>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Sales Visit</description>
+</CustomField>

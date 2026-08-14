@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evidence_Type__c</fullName>
+    <label>Evidence Type</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <description>Evidence Type</description>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Photo</fullName>
+                <default>true</default>
+                <label>Photo</label>
+            </value>
+            <value>
+                <fullName>Signature</fullName>
+                <default>false</default>
+                <label>Signature</label>
+            </value>
+            <value>
+                <fullName>GPS</fullName>
+                <default>false</default>
+                <label>GPS</label>
+            </value>
+            <value>
+                <fullName>Note</fullName>
+                <default>false</default>
+                <label>Note</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

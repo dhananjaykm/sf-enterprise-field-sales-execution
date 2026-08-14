@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promotion__c</fullName>
+    <label>Promotion</label>
+    <type>Lookup</type>
+    <referenceTo>Promotion__c</referenceTo>
+    <relationshipLabel>Executions</relationshipLabel>
+    <relationshipName>Executions</relationshipName>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Promotion</description>
+</CustomField>
